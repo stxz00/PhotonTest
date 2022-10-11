@@ -34,5 +34,37 @@
     - CouponManage : 쿠폰 이용권 사용을 위한 서버 데이터 검증.
     - Login : 파이어베이스 게스트 로그인.
     
-
- 
+5) Scenes 
+    - TITLE SCENE : 게임 첫 씬. 닉네임 입력 후 게스트 로그인 및 HOME SCENE 이동
+        * Canvas에 Login 스크립트 적용
+           + Nickname Input : Nickname Input
+        
+        * 버튼 함수 적용
+           + Join Server : Login.AnonyLogin
+           + LogOutButton : Login.SignOut
+           
+    - HOME SCENE : 방 리스트 쿠폰으로 게임 기회 충전 가능.  
+        * Canvas에 Photon Manager 스크립트 적용
+            + Room List Panel : Panel - RoomList
+            + Coupon Panel : CouponPanel
+            + Room Prefab : RoomEntity
+            + Scroll Content : Content 
+            + 외 적용 x
+            
+        * Canvas에 Coupon Manage  스크립트 적용
+            + Coupon Panel : CouponPanel
+            + Room List Panel : Panel - RoomList
+            + Coupon Input : Coupon Input 
+        
+        * 버튼 함수 적용  
+            + CouponPanelButton : CouponManage.OpenCouponPanel
+            + CouponPanel - ValidateCouponButton : CouponManage.ValidateCoupon
+        
+    - GAME SCENE : 게임 씬. 현재 방 접속자와 마스터 클라이언트 여부에 따른 WebRpc 적용.
+        * Canvas에 Photon Manager 스크립트 적용
+            + Payer List : PlayerList 
+            = Player Count : Player Count
+            
+        * 버튼 함수 적용  
+            + LeaveRoomButton : PhotonManager.leaveRoom
+            
