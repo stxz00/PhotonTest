@@ -23,7 +23,7 @@
 
 1) Google - google-services : Firebase 인증 사용을 위한 서비스 키
 
-2) Keystore - user.keystore : 차후 Firebase 구글 인증 사용 시 적용할 keystore 파일
+2) Keystore - user.keystore : 차후 Firebase 구글 인증 사용 시 적용할 keystore 파일 (pw : netcrane)
 
 3) Prefabs - RoomEntity.prefab : 방 리스트의 방 정보 프리펩
 
