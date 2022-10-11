@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "583936108937",
+    "project_id": "clawmachinegame-beaa6",
+    "storage_bucket": "clawmachinegame-beaa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583936108937:android:62745da6a69475a76f5958",
+        "android_client_info": {
+          "package_name": "com.sesisoft.netcrane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583936108937-a22pn25orbs0jg0b609cqgpf5699i0d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sesisoft.netcrane",
+            "certificate_hash": "127950df4e0344938c9bfe99aea98eab86375950"
+          }
+        },
+        {
+          "client_id": "583936108937-ji3qug2ecod97tu4futtbj4ksvgj9tl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcQoFeysJm7E93loVkNnblFZnpAg9dSUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583936108937-ji3qug2ecod97tu4futtbj4ksvgj9tl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
